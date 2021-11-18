@@ -7,10 +7,14 @@
    used as an Emacs Lisp interpreter to process the Org file.
    #+end_quote
 
-   I assume you have TeXLive Full and Emacs installed.
+   I assume you have TeXLive Full and Emacs installed:
+   #+BEGIN_SRC
+   sudo apt install texlive-full emacs
+   #+END_SRC
+
 
    1. Clone this repository.
-      #+BEGIN_SRC sh
+      #+BEGIN_SRC
         git clone --depth 1 https://github.com/sigpwny/presentation-format
       #+END_SRC
 
@@ -24,7 +28,7 @@
       and should be self-explanatory.
 
    5. Save the file. Export it to PDF by running:
-      #+BEGIN_SRC sh
+      #+BEGIN_SRC
         emacs -Q simple-org-example.org --batch -f org-beamer-export-to-pdf --kill
       #+END_SRC
       Emacs should tell you "PDF file produced", and it will appear with the
