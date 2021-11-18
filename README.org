@@ -1,0 +1,9 @@
+* SIGPwny Presentation Template
+
+All the =.sty= files and =pwny.png= are required to compile a =.tex=
+file.
+
+=tex-example= and =org-example= are how you'd use the Beamer template,
+and the PDFs are the outputs.
+
+TODO: write more complete documentation.
