@@ -1,13 +1,6 @@
 * SIGPwny Presentation Template
 
-All the =.sty= files and =pwny.png= are required to compile a =.tex=
-file.
-
-=tex-example= and =org-example= are how you'd use the Beamer template,
-and the PDFs are the outputs.
-
-
-** Recommended Usage
+** Quickstart :triangular_flag_on_post:
 
    #+begin_quote
    No part of this tutorial requires direct usage of Emacs, it is only
@@ -22,7 +15,7 @@ and the PDFs are the outputs.
       #+END_SRC
 
    2. Open the file =simple-org-example.org= in your favorite text
-      editor. If your goal is just testing, skip to step 4.
+      editor. If your goal is just testing, skip to step 5.
 
    3. Change the title and author to what you want.
 
@@ -42,6 +35,13 @@ and the PDFs are the outputs.
    In general, you can create another =.org= file and do the exactly
    same thing. As long as the =.sty= files and =pwny.png= are in the
    same directory, export will work as expected.
+
+* Note
+All the =.sty= files and =pwny.png= are required to compile a =.tex=
+file.
+
+=tex-example= and =org-example= are how you'd use the Beamer template,
+and the PDFs are the outputs.
 
 * TODO
 Write more complete documentation.
