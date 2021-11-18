@@ -1,17 +1,11 @@
 * SIGPwny Presentation Template
 
-** Quickstart
+** Quickstart Using Markdown
 
-   #+begin_quote
-   No part of this tutorial requires direct usage of Emacs, it is only
-   used as an Emacs Lisp interpreter to process the Org file.
-   #+end_quote
-
-   I assume you have TeXLive Full and Emacs installed:
-   #+BEGIN_SRC
-   sudo apt install texlive-full emacs
-   #+END_SRC
-
+I assume you have TeXLive Full and Pandoc installed:
+#+BEGIN_SRC
+sudo apt install texlive-full pandoc
+#+END_SRC
 
 Clone this repository.
 #+BEGIN_SRC
@@ -19,37 +13,24 @@ git clone --depth 1 https://github.com/sigpwny/presentation-format
 cd presentation-format
 #+END_SRC
 
-Export =simple-org-example.org= to PDF by running:
+Export =simple-md-example.md= to PDF by running:
 #+BEGIN_SRC
-emacs -Q simple-org-example.org --batch -f org-beamer-export-to-pdf --kill
+pandoc -t beamer simple-md-example.md -o simple-md-example.pdf
 #+END_SRC
-Emacs should tell you "PDF file produced", and it will appear with the
-filename =simple-org-example.pdf=. Open it and make sure it
-looks as you expect.
 
-Your presentation is ready. To edit a presentation:
+Open it and make sure it looks as you expect.
 
-1. Open the file =simple-org-example.org= in your favorite text
-   editor.
+Your presentation is ready. To edit a presentation, edit the source
+Markdown file, it should be quite intuitive.
 
-2. Change the title and author to what you want.
-
-3. Each heading (starts with =*=) is a slide. Put your content
-   in different slides this way. Basic markup is in the document,
-   and should be self-explanatory on comparison with the PDF.
-
-4. Export to PDF via Emacs and profit.
-
-In general, you can create another =.org= file and do the exactly
+In general, you can create another =.md= file and do the exactly
 same thing. As long as the =.sty= file and =pwny.png= are in the
 same directory, export will work correctly.
 
 * Note
-=beamerthemesigpwny.sty= and =pwny.png= are required to compile a =.tex=
-file.
-
-=tex-example= and =org-example= are how you'd use the Beamer template,
-and the PDFs are the outputs.
+=tex-example= is how you'd use the Beamer theme in pure LaTeX, if
+you're so inclined.
 
 * TODO
 Write more complete documentation.
+Org mode docs
