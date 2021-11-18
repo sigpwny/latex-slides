@@ -1,5 +1,7 @@
 # SIGPwny Presentation Template
 
+Sample output: [PDF](https://github.com/sigpwny/presentation-format/blob/main/tex-example.pdf).
+
 ## Quickstart Using Markdown
 
 I assume you have TeXLive Full and Pandoc installed:
