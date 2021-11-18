@@ -1,36 +1,33 @@
-* SIGPwny Presentation Template
+# SIGPwny Presentation Template
 
-** Quickstart Using Markdown
+## Quickstart Using Markdown
 
 I assume you have TeXLive Full and Pandoc installed:
-#+BEGIN_SRC
+```
 sudo apt install texlive-full pandoc
-#+END_SRC
+```
 
 Clone this repository.
-#+BEGIN_SRC
+```
 git clone --depth 1 https://github.com/sigpwny/presentation-format
 cd presentation-format
-#+END_SRC
+```
 
-Export =simple-md-example.md= to PDF by running:
-#+BEGIN_SRC
+Export `simple-md-example.md` to PDF by running:
+```
 pandoc -t beamer simple-md-example.md -o simple-md-example.pdf
-#+END_SRC
+```
 
 Open it and make sure it looks as you expect.
 
 Your presentation is ready. To edit a presentation, edit the source
 Markdown file, it should be quite intuitive.
 
-In general, you can create another =.md= file and do the exactly
-same thing. As long as the =.sty= file and =pwny.png= are in the
+In general, you can create another `.md` file and do the exactly
+same thing. As long as the `.sty` file and `pwny.png` are in the
 same directory, export will work correctly.
 
-* Note
-=tex-example= is how you'd use the Beamer theme in pure LaTeX, if
+# Note
+`tex-example` is how you'd use the Beamer theme in pure LaTeX, if
 you're so inclined.
 
-* TODO
-Write more complete documentation.
-Org mode docs
