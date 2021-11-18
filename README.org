@@ -42,7 +42,7 @@
    same directory, export will work as expected.
 
 * Note
-All the =.sty= files and =pwny.png= are required to compile a =.tex=
+=beamerthemesigpwny.sty= and =pwny.png= are required to compile a =.tex=
 file.
 
 =tex-example= and =org-example= are how you'd use the Beamer template,
