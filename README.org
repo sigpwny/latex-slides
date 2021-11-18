@@ -14,9 +14,9 @@
 
 
    1. Clone this repository.
-#+BEGIN_SRC
-git clone --depth 1 https://github.com/sigpwny/presentation-format
-#+END_SRC
+      #+BEGIN_SRC
+      git clone --depth 1 https://github.com/sigpwny/presentation-format
+      #+END_SRC
 
    2. Open the file =simple-org-example.org= in your favorite text
       editor. If your goal is just testing, skip to step 5.
