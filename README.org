@@ -15,7 +15,7 @@
 
    1. Clone this repository.
       #+BEGIN_SRC
-        git clone --depth 1 https://github.com/sigpwny/presentation-format
+      git clone --depth 1 https://github.com/sigpwny/presentation-format
       #+END_SRC
 
    2. Open the file =simple-org-example.org= in your favorite text
@@ -29,7 +29,7 @@
 
    5. Save the file. Export it to PDF by running:
       #+BEGIN_SRC
-        emacs -Q simple-org-example.org --batch -f org-beamer-export-to-pdf --kill
+      emacs -Q simple-org-example.org --batch -f org-beamer-export-to-pdf --kill
       #+END_SRC
       Emacs should tell you "PDF file produced", and it will appear with the
       filename =simple-org-example.pdf=. Open it and make sure it
