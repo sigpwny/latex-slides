@@ -1,6 +1,6 @@
 * SIGPwny Presentation Template
 
-** Quickstart :triangular_flag_on_post:
+** Quickstart
 
    #+begin_quote
    No part of this tutorial requires direct usage of Emacs, it is only
