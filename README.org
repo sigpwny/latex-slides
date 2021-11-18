@@ -6,4 +6,42 @@ file.
 =tex-example= and =org-example= are how you'd use the Beamer template,
 and the PDFs are the outputs.
 
-TODO: write more complete documentation.
+
+** Recommended Usage
+
+   #+begin_quote
+   No part of this tutorial requires direct usage of Emacs, it is only
+   used as an Emacs Lisp interpreter to process the Org file.
+   #+end_quote
+
+   I assume you have TeXLive Full and Emacs installed.
+
+   1. Clone this repository.
+      #+BEGIN_SRC sh
+        git clone --depth 1 https://github.com/sigpwny/presentation-format
+      #+END_SRC
+
+   2. Open the file =simple-org-example.org= in your favorite text
+      editor. If your goal is just testing, skip to step 4.
+
+   3. Change the title and author to what you want.
+
+   4. Each heading (starts with =*=) is a slide. Put your content
+      in different slides this way. Basic markup is in the document,
+      and should be self-explanatory.
+
+   5. Save the file. Export it to PDF by running:
+      #+BEGIN_SRC sh
+        emacs -Q simple-org-example.org --batch -f org-beamer-export-to-pdf --kill
+      #+END_SRC
+      In a terminal. This should say "PDF file produced", and it will
+      appear with the filename =simple-org-example.pdf=.
+
+   Your presentation is ready.
+
+   In general, you can create another =.org= file and do the exactly
+   same thing. As long as the =.sty= files and =pwny.png= are in the
+   same directory, export will work as expected.
+
+* TODO
+Write more complete documentation.
