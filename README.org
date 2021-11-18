@@ -30,13 +30,13 @@ looks as you expect.
 Your presentation is ready. To edit a presentation:
 
 1. Open the file =simple-org-example.org= in your favorite text
-   editor. If your goal is just testing, skip to step 5.
+   editor.
 
 2. Change the title and author to what you want.
 
 3. Each heading (starts with =*=) is a slide. Put your content
    in different slides this way. Basic markup is in the document,
-   and should be self-explanatory.
+   and should be self-explanatory on comparison with the PDF.
 
 4. Export to PDF via Emacs and profit.
 
