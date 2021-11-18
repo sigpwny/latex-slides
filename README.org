@@ -27,8 +27,9 @@
       #+BEGIN_SRC sh
         emacs -Q simple-org-example.org --batch -f org-beamer-export-to-pdf --kill
       #+END_SRC
-      In a terminal. This should say "PDF file produced", and it will
-      appear with the filename =simple-org-example.pdf=.
+      Emacs should tell you "PDF file produced", and it will appear with the
+      filename =simple-org-example.pdf=. Open it and make sure it
+      looks as you expect.
 
    Your presentation is ready.
 
