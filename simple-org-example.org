@@ -13,6 +13,7 @@
 #+title: An Org to Beamer SIGPwny Presentation Demo
 #+author: Some Authors
 
+# Content goes below.
 * Org Mode Makes Everything Nicer
 
   Simple markdown like syntax:
@@ -34,4 +35,5 @@
 
 * And Still Exports to Beamer
 
+  $$\int_0^{\infty}f(x) dx = \lim_{t\to\infty} \int_0^t f(x) dx$$
   No more writing raw TeX.
