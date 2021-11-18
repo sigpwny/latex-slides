@@ -20,7 +20,7 @@ Export `simple-md-example.md` to PDF by running:
 pandoc -t beamer simple-md-example.md -o simple-md-example.pdf
 ```
 
-Open it and make sure it looks as you expect.
+Open the PDF and make sure it looks as you expect.
 
 Your presentation is ready. To edit a presentation, edit the source
 Markdown file, it should be quite intuitive.
