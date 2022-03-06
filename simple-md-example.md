@@ -5,6 +5,8 @@ author:
 - Nebu
 theme:
 - sigpwny
+classoption:
+- aspectratio=169
 date:
 - 
 ---
